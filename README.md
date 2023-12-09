@@ -2,6 +2,13 @@
 
 [![](https://github.com/asarkar/udemy-advanced-scala/workflows/CI/badge.svg)](https://github.com/asarkar/udemy-advanced-scala/actions)
 
+## Executing a main Method
+```
+./millw <module>.runMain --mainClass <fully-qualified main class>
+
+./millw lectures.runMain --mainClass part4implicits.OrganizingImplicits 
+```
+
 ## References
 
 ### ScalaCheck Generators
