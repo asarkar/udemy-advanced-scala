@@ -32,8 +32,15 @@ done
 ./millw __.compile
 
 if (( no_test == 0 )); then
-  basedir="${1:-__}"
-  ./millw "$basedir".test
+  if [[ -z "$1" ]]; then
+    ./millw __.test
+  elif ./millw resolve "$1".test &>/dev/null; then
+    ./millw "$1".test
+  else
+    red='\033[0;31m'
+    no_color='\033[0m'
+	printf "%bNo tests found in: %s%b\n" "$red" "$1" "$no_color"
+  fi
 fi
 
 if (( no_lint == 0 )); then
