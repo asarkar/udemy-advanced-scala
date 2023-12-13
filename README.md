@@ -2,11 +2,18 @@
 
 [![](https://github.com/asarkar/udemy-advanced-scala/workflows/CI/badge.svg)](https://github.com/asarkar/udemy-advanced-scala/actions)
 
+Official GitHub repo: https://github.com/rockthejvm/udemy-scala-advanced/tree/master
+
 ## Executing a main Method
 ```
 ./millw <module>.runMain --mainClass <fully-qualified main class>
 
 ./millw lectures.runMain --mainClass part4implicits.OrganizingImplicits 
+```
+
+## Executing Tests
+```
+./.github/run.sh exercises
 ```
 
 ## References
