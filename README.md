@@ -4,6 +4,20 @@
 
 Official GitHub repo: https://github.com/rockthejvm/udemy-scala-advanced/tree/master
 
+## Syllabus
+
+Section 1: Welcome
+
+Section 2: A Taste of Advanced Scala
+
+Section 3: Advanced Functional Programming
+
+Section 4: Functional Concurrent Programming
+
+Section 5: Implicits
+
+Section 6: Mastering the Type System
+
 ## Executing a main Method
 ```
 ./millw <module>.runMain --mainClass <fully-qualified main class>
@@ -15,15 +29,3 @@ Official GitHub repo: https://github.com/rockthejvm/udemy-scala-advanced/tree/ma
 ```
 ./.github/run.sh exercises
 ```
-
-## References
-
-### ScalaCheck Generators
-
-* [ScalaCheck custom generator examples](https://alvinalexander.com/scala/scalacheck-custom-generator-examples/)
-
-* [davidallsopp/PropertyTests.scala](https://gist.github.com/davidallsopp/60d7474a1fe8dc9b1f2d)
-
-* [Property Based Testing: ScalaTest + ScalaCheck](https://medium.com/analytics-vidhya/property-based-testing-scalatest-scalacheck-52261a2b5c2c)
-
-* [Generators in Detail](https://booksites.artima.com/scalacheck/examples/html/ch06.html)
